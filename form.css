@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: #f5f5f5;
+}
+.container {
+    background: white;
+    width: 25em;
+    height: 50em;
+    border-radius: .5em;
+    border: .03em solid #FD7401;
+    position: relative;
+    left: 10%;
+    margin-top: 4em;
+}
+.logo {
+    width: 25em;
+    height: 10em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.network {
+    width: 12em;
+    margin-bottom: 1em;
+}
+h1 {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.form-input {
+    position: relative;
+    width: 100%;
+    height: 25%;
+}
+.email-ent {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+}
+.email-ent input{
+    width: 100%;
+    height: 3.5em;
+    padding: .5em;
+    border: none;
+    border-radius: .7em;
+    background: #f1f3f6;   
+}
+.email-btn {
+    background: #FD7401;
+    border-radius: .5em;
+    width: 3.5em;
+    height: 3.5em;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.email-btn img {
+    position: absolute;
+    translate: -50% -50%;
+}
+.pass-ent {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+}
+.pass-ent input {
+    width: 100%;
+    height: 3.5em;
+    padding: .5em;
+    background: #f1f3f6;
+    border: none;
+    border-radius: .5em;
+}
+.password-btn {
+    background: #FD7401;
+    width: 3.5em;
+    height: 3.5em;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: .5em;
+}
+.password-btn img {
+    position: absolute;
+    translate: -50% -50%;
+}
+label {
+    position: relative;
+    left: 2.8em;
+}
+.forgot-pass {
+    width: 100%;
+    height: 5%;
+    text-align: right;
+}
+.forgot-pass a {
+    margin-right: 2.2em;
+}
+.login {
+    width: 100%;
+    height: 7%;
+    position: relative;
+}
+.Login-btn {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    padding: .7em;
+    background: #FD7401;
+    border: none;
+    border-radius: .5em;
+    color: white;
+    box-shadow: 0px 1px 5px #FD7401;
+}
+.horizontal-rule-with-name {
+    margin-top: .5em;
+    /* background: skyblue; */
+    width: 80%;
+    height: 5%;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+}
+span::before, span::after {
+    content: "";
+    height: .09em;
+    width: 8em;
+    display: block;
+    background: #c2c2c2;
+    margin: 0 auto;
+}
+span {
+    display: flex;
+    align-items: center;
+}
+.signup {
+    width: 100%;
+    height: 7%;
+    position: relative;
+}
+.signup-btn {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    padding: .7em;
+    border: .1em solid #FD7401;
+    background: none;
+    color: #FD7401;
+    border-radius: .5em;
+    box-shadow: 0 1px 5px #FD7401;
+}
